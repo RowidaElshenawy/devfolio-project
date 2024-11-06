@@ -1,0 +1,745 @@
+/* start global style */
+:root{
+    --padding-section: 100px;
+    --main-color: #0078FF;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+/* end global style */
+/* start navbar */
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-nav .nav-link.active::before{
+    transform: translateX(0);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.navbar{
+    z-index: 22;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+.small-list{
+    transform: translate(-100% ,-20% );
+}
+.navbar .list:hover .small-list{
+    display: block;
+}
+.dropdown-item{
+    transition: color 0.5s;
+}
+.dropdown-item:hover{
+    color: var(--main-color);
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.nav-item{
+    padding: 10px 0 10px 30px;
+}
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0 5px 0!important;
+    position: relative;
+    overflow: hidden;
+}
+.nav-link::before{
+    content: "";
+    background-color: white;
+    width: 80%;
+    height:1px;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+.nav-link:hover::before{
+    transform: translateX(0);
+}
+.nav-link:focus, .nav-link:hover , .navbar-brand:focus, .navbar-brand:hover ,  .navbar-nav .nav-link.show{
+    color: white;
+}
+/* end navbar */
+/* start header */
+.header{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+.header::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header .header-text h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+.header span{
+    font-size: 2.5rem;
+}
+.header span::before{
+    content: "";
+    animation: move 10s infinite;
+}
+@keyframes move {
+    0%{
+        content:"D";
+    }
+    1%{
+        content: "De";
+    }
+    2%{
+        content: "Des";
+    }
+    3%{
+        content: "Desi";
+    }
+    4%{
+        content: "Desig";
+    }
+    5%{
+        content: "Design";
+    }
+    6%{
+        content: "Designe";
+    }
+    7%{
+        content: "Designer";
+    }
+    8%{
+        content: "Designer";
+    }
+    9%{
+        content: "Designer";
+    }
+    10%{
+        content: "Designer";
+    }
+    11%{
+        content: "Designer";
+    }
+    12%{
+        content: "Designer";
+    }
+    13%{
+        content: "Designer";
+    }
+    14%{
+        content: "Designer";
+    }
+    15%{
+        content: "Designer";
+    }
+    16%{
+        content: "Designer";
+    }
+    17%{
+        content: "Designe";
+    }
+    18%{
+        content: "Design";
+    }
+    19%{
+        content: "Desig";
+    }
+    20%{
+        content: "Desi";
+    }
+    21%{
+        content: "Des";
+    }
+    22%{
+        content: "De";
+    }
+    23%{
+        content: "Dev";
+    }
+    24%{
+        content: "Deve";
+    }
+    25%{
+        content: "Devel";
+    }
+    26%{
+        content: "Develo";
+    }
+    27%{
+        content: "Develop";
+    }
+    28%{
+        content: "Develope";
+    }
+    29%{
+        content: "Developer";
+    }
+    30%{
+        content: "Developer";
+    }
+    31%{
+        content: "Developer";
+    }
+    32%{
+        content: "Developer";
+    }
+    33%{
+        content: "Developer";
+    }
+    34%{
+        content: "Developer";
+    }
+    35%{
+        content: "Developer";
+    }
+    36%{
+        content: "Developer";
+    }
+    37%{
+        content: "Developer";
+    }
+    38%{
+        content: "Developer";
+    }
+    39%{
+        content: "Develope";
+    }
+    40%{
+        content: "Develop";
+    }
+    41%{
+        content: "Develo";
+    }
+    42%{
+        content: "Devel";
+    }
+    43%{
+        content: "Deve";
+    }
+    44%{
+        content: "Dev";
+    }
+    45%{
+        content: "De";
+    }
+    46%{
+        content: "D";
+    }
+    47%{
+        content: "F";
+    }
+    48%{
+        content: "Fr";
+    }
+    49%{
+        content: "Fre";
+    }
+    50%{
+        content: "Free";
+    }
+    51%{
+        content: "Freel";
+    }
+    52%{
+        content: "Freela";
+    }
+    53%{
+        content: "Freelan";
+    }
+    54%{
+        content: "Freelanc";
+    }
+    55%{
+        content: "Freelance";
+    }
+    56%{
+        content: "Freelancer";
+    }
+    57%{
+        content: "Freelancer";
+    }
+    58%{
+        content: "Freelancer";
+    }
+    59%{
+        content: "Freelancer";
+    }
+    60%{
+        content: "Freelancer";
+    }
+    61%{
+        content: "Freelancer";
+    }
+    62%{
+        content: "Freelancer";
+    }
+    63%{
+        content: "Freelancer";
+    }
+    64%{
+        content: "Freelancer";
+    }
+    65%{
+        content: "Freelancer";
+    }
+    66%{
+        content: "Freelance";
+    }
+    67%{
+        content: "Freelanc";
+    }
+    68%{
+        content: "Freelan";
+    }
+    69%{
+        content: "Freela";
+    }
+    70%{
+        content: "Freel";
+    }
+    71%{
+        content: "Free";
+    }
+    72%{
+        content: "Fre";
+    }
+    73%{
+        content: "Fr";
+    }
+    74%{
+        content: "F";
+    }
+    75%{
+        content: "p";
+    }
+    76%{
+        content: "ph";
+    }
+    77%{
+        content: "pho";
+    }
+    78%{
+        content: "phot";
+    }
+    79%{
+        content: "photo";
+    }
+    80%{
+        content: "photog";
+    }
+    81%{
+        content: "photogr";
+    }
+    82%{
+        content: "photogra";
+    }
+    83%{
+        content: "photograp";
+    }
+    84%{
+        content: "photograph";
+    }
+    85%{
+        content: "photographe";
+    }
+    86%{
+        content: "photographer";
+    }
+    87%{
+        content: "photographer";
+    }
+    88%{
+        content: "photographer";
+    }
+    89%{
+        content: "photographer";
+    }
+    90%{
+        content: "photographe";
+    }
+    91%{
+        content: "photograph";
+    }
+    92%{
+        content: "photograp";
+    }
+    93%{
+        content: "photogra";
+    }
+    94%{
+        content: "photogr";
+    }
+    95%{
+        content: "photog";
+    }
+    96%{
+        content: "photo";
+    }
+    97%{
+        content: "phot";
+    }
+    98%{
+        content: "pho";
+    }
+    99%{
+        content: "ph";
+    }
+    100%{
+        content: "p";
+    }
+}
+/* end header */
+/* start about */
+#about{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+#about .box{
+    position: relative;
+    height: 10px;
+    background-color: #CDE1F8;
+}
+#about .bottom .box::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    height: 10px;
+}
+#about .bottom {
+    padding-top: 40px;
+}
+#about .bottom h3{
+    font-size: 1.1rem;
+}
+#about .bottom  p{
+    padding-top: 15px;
+}
+#about .bottom .box:nth-child(3):before{
+    width: 85%;
+}
+#about .bottom .box:nth-child(5):before{
+    width: 75%;
+}
+#about .bottom .box:nth-child(7):before{
+    width: 50%;
+}
+#about .bottom .box:nth-child(9):before{
+    width: 90%;
+}
+#about .row{
+    padding: 50px;
+}
+#about ul li{
+    color: #4e4e4e;
+}
+#about ul span{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    padding-right: 4px;
+}
+#about h2::before , #contact h2::before{
+    position: absolute;
+    content: "";
+    width: 18%;
+    height: 3px;
+    background-color: var(--main-color);
+    bottom: 0;
+}
+/* end about */
+/* start services */
+.main-heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 5px;
+    background-color: var(--main-color);
+    transform: translateX(-50%);
+}
+.main-heading h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#services {
+    padding-bottom: var(--padding-section);
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+    transition: all 0.5s ;
+}
+.circle i{
+    font-size: 2rem;
+}
+#services .card:hover .circle{
+    border-color: #CDE1F8;
+    background-color: var(--main-color);
+    color: white;
+}
+#services .row{
+    margin-top: 50px;
+}
+/* end services */
+/* start count */
+.count , .slider , #contact ,.header-portfolio{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+}
+.count::before ,
+.slider::before , #contact::before , .header-portfolio::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0077ff9b;
+}
+.count .card{
+    background-color: transparent;
+    z-index: 12;
+}
+.count .circle{
+    border-color: #CDE1F8;
+    width: 80px;
+    height: 80px;
+}
+/* end count */
+/* start portfolio */
+#work{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+#work .work-left span{
+    color: var(--main-color);
+}
+#work .work-circle{
+    width:40px;
+    height:40px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+#work .card button img{
+    transition: transform 0.5s;
+}
+#work .card:hover button img{
+    transform: scale(1.2);
+}
+/* start modal */
+.modal{
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+.modal-content{
+    background-color: transparent; 
+}
+.modal .btn-close{
+    background-image: url(../images/close.png);
+}
+.modal .carousel{
+    width: 60%;
+    margin: auto;
+}
+.modal .carousel-control-prev , .modal .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 60px;
+}
+.modal .carousel-control-prev {
+    left: -30%;
+}
+.modal .carousel-control-next {
+    right: -30%;
+}
+/* end modal */
+/* end portfolio */
+/* start slider */
+.slider ,#contact , .header-portfolio{
+    font-family: "Roboto", sans-serif;
+    background-image: url(../images/overlay-bg.jpg);
+}
+.slider h5{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.slider .slider-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.slider .slider-p{
+    width: 100px;
+    height: 200px;
+    border-radius: 100%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/* end slider */
+/* start blog */
+#blog{
+    padding-top: var(--padding-section);
+    padding-bottom: var(--padding-section);
+}
+#blog .card a.special::before{
+    content: "TRAVEL";
+    position: absolute;
+    color: #F5F5F5;
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% , 50%);
+}
+#blog .card a.special2::before{
+    content: "WEB DESIGN";
+}
+#blog .card-footer a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#blog .card-body p{
+    font-size: 1.2rem;
+}
+#blog .card-footer p{
+    color: #4e4e4e;
+}
+#blog .card-footer a{
+    color: #1e1e1e;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+#blog h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+#blog .card-footer a span , #blog h5{
+    transition: color 0.5s;
+}
+#blog .card-footer a:hover span , #blog h5:hover{
+    color: var(--main-color);
+}
+/* end blog */
+/*  start contact*/
+#contact{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1) ;
+}
+#contact ul li.circle{
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--main-color);
+    border-radius: 50%;
+}
+#contact ul i{
+    font-size: 20px;
+}
+#contact ul:nth-of-type(1) i{
+    color: var(--main-color);
+}
+#contact ul:nth-of-type(1) span{
+    color:#4e4e4e;
+}
+#contact ul li.circle , #contact ul li.circle a{
+    transition: all 0.5s;
+}
+#contact ul li.circle:hover{
+    border-color: #CDE1F8;
+    background-color: var(--main-color);
+}
+#contact ul:nth-of-type(2) li:hover i{
+    color: #F5F5F5 !important;
+}
+input , textarea {
+    transition: box-shadow 0.5s ;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+#contact form input:focus , #contact form textarea:focus{
+    border:1px solid var(--main-color);
+    box-shadow: 0 0 0  5px #CDE1F8;
+    outline: none;
+}
+#contact input::placeholder , #contact textarea::placeholder{
+    font-size: 14px;
+}
+#contact button{
+    background-color: var(--main-color);
+    border: 5px solid var(--main-color);
+    transition: all 0.5s;
+}
+#contact button:hover{
+    border: 5px solid #CDE1F8;
+    background-color: #3393FF;
+}
+/* end contact */
+/* start footer */
+.footer{
+    background-color: #0062D3;
+    padding: 30px 0;
+}
+.footer span{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* end footer */
+/* start second page*/
+.header-portfolio{
+    height: 350px;
+}
+.header-portfolio h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.header-portfolio .special-li{
+    color: #cde1f8;;
+}
+.information{
+    padding: 40px 0;
+}
+.information span{
+    font-weight: 700;
+    padding-right: 5px;
+}
+.information li a{
+    transition: color 0.5s;
+}
+.information li a:hover{
+    color: var(--main-color)!important;
+}
+.bg-nav{
+    background-color: #0077ff9b;
+}
+.information h2{
+    font-size: 25px;
+}
+.information p{
+    color: #4e4e4e;
+}
+/* end second page */

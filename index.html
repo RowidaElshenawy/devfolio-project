@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFolio</title>
+    <link rel="shortcut icon" href="images/icon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll">
+    <!-- start navbar -->
+    <nav id="main-page" class="navbar navbar-expand-lg bg-body-dark bg-black position-fixed w-100">
+        <div class="container">
+            <a class="navbar-brand" href="#">DevFolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> DROP DOWN </a>
+                        <ul class="dropdown-menu">
+                            <li class="pe-3"><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                            <li class="list dropdown pe-5">
+                                <a class="dropdown-item dropdown-toggle" href="#">Deep Drop Down</a>
+                                <ul class="dropdown-menu  small-list">
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down 3</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down 4</a></li>
+                                    <li><a class="dropdown-item" href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                            <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start header -->
+    <div class="header vh-100 text-white d-flex justify-content-center align-items-center position-relative" id="home">
+        <div class="header-text text-center z-3">
+            <h1>I am Morgan Freeman</h1>
+            <span>|</span>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- start about -->
+    <div id="about">
+        <div class="card shadow container">
+            <div class="row g-0 p-0 p-sm-5">
+                <div class="col-md-6 card-body">
+                    <div class="top d-flex flex-wrap justify-content-between ">
+                        <div class="right col-sm-12 col-md-12  col-lg-5">
+                            <img class="rounded " src="images/about.jpg" alt="Morgan Freeman">
+                        </div>
+                        <ul class="left pt-1 col-sm-12 col-md-12 col-lg-7 d-flex flex-column justify-content-between">
+                            <li><span>Name:</span>Morgan Freeman</li>
+                            <li><span>Profile:</span>full stack developer</li>
+                            <li><span>Email:</span> contact@example.com</li>
+                            <li><span>Phone:</span> (617) 557-0089</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <h3>Skill</h3>
+                        <p>HTML 85%</p>
+                        <div class="box w-100"></div>
+                        <p>CSS3 75%</p>
+                        <div class="box w-100"></div>
+                        <p>PHP 50%</p>
+                        <div class="box w-100"></div>
+                        <p>JAVASCRIPT 90%</p>
+                        <div class="box w-100"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h2 class="position-relative pb-2 mb-5">About me</h2>
+                        <p class="lead">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur
+                            arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a
+                            pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
+                        <p class="lead">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit
+                            tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum
+                            sed sit amet dui. porttitor at sem.</p>
+                        <p class="lead">Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in,
+                            elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget
+                            tincidunt nibh pulvinar a.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start services -->
+    <div id="services" class="m-md-5">
+        <div class="container">
+            <div class="main-heading text-center position-relative pb-2">
+                <h2>Services</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 mt-4">
+                <div class="col">
+                    <div class="rounded-4 border-0 shadow card h-100 text-center align-items-center py-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 shadow border-0 rounded-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 shadow border-0 rounded-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Photography</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 shadow border-0 rounded-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-binoculars"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Responsive Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 shadow border-0 rounded-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-regular fa-sun"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Graphic Design</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 shadow border-0 rounded-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-regular fa-credit-card"></i>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title">Marketing Services</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services -->
+    <!-- start counter -->
+    <div class="count">
+        <div class="container">
+            <div class=" row row-cols-1 row-cols-md-2 row-cols-lg-4  g-4">
+                <div class="col">
+                    <div class="text-white rounded-4 border-0  card h-100 text-center align-items-center py-4">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">450</h5>
+                            <p class="card-text">WORKS COMPLETED</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 border-0 rounded-4 text-white">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-regular fa-file-image"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">25</h5>
+                            <p class="card-text">YEARS OF EXPERIENCE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 border-0 rounded-4 text-white">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">550</h5>
+                            <p class="card-text">TOTAL CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center align-items-center py-4 border-0 rounded-4 text-white">
+                        <div class="circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">48</h5>
+                            <p class="card-text">AWARD WON</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end counter -->
+    <!-- start portfolio -->
+    <div id="work">
+        <div class="container">
+            <div class="main-heading text-center position-relative pb-2">
+                <h2>Portfolio</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img class="w-100" src="images/work-1.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-1.jpg " class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-2.jpg " class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-4.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Lorem impsum dolor</h5>
+                                <p class="card-text"><span>Web Design </span>/ 18 Sep. 2018</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            <img class="w-100" src="images/work-2.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample1" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-2.jpg " class="d-block w-100 " alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-4.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Loreda Cuno Nere</h5>
+                                <p class="card-text"><span>Web Design</span>/ 18 Sep. 2018</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <img class="w-100" src="images/work-3.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample2" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-3.jpg " class="d-block w-100 " alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-4.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Mavrito Lana Dere</h5>
+                                <p class="card-text"><span>Web Design </span>/ 18 Sep. 2018</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <img class="w-100" src="images/work-4.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample3" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-4.jpg " class="d-block w-100 " alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Bindo Laro Cado</h5>
+                                <p class="card-text"><span>Web Design </span>/ 18 Sep. 2018</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <img class="w-100" src="images/work-5.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample4" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-5.jpg " class="d-block w-100 " alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-4.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Studio Lena Mado</h5>
+                                <p class="card-text"><span>Web Design </span>/ 18 Sep. 2018</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class=" border-0 shadow card h-100 overflow-hidden">
+                        <!-- start modal -->
+                        <button type="button" class="btn border-0 p-0 overflow-hidden" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            <img class="w-100" src="images/work-6.jpg" alt="">
+                        </button>
+                        <div class="modal fade w-100" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog m-0">
+                                <div class="modal-content border-0 rounded-0 ">
+                                    <div class="modal-header border-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body p-0 ">
+                                        <div id="carouselExample1" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/work-6.jpg " class="d-block w-100 " alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-1.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-2.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-3.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-4.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/work-5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end modal -->
+                        <div class="card-body d-flex justify-content-between align-items-center">
+                            <div class="work-left">
+                                <h5 class="card-title">Studio Big Bang</h5>
+                                <p class="card-text"><span>Web Design </span>/ 18 Sep. 2017</p>
+                            </div>
+                            <a class="text-decoration-none" href="portfolio.details.html"><div class="d-flex justify-content-center align-items-center work-circle "><i class="fa-solid fa-plus"></i></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+    <!-- start slider -->
+    <div class="slider">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="d-flex flex-column align-items-center text-center user-select-none">
+                            <img  src="images/testimonial-2.jpg" class=" d-block slider-circle" alt="Xavi Alonso">
+                            <div class="py-5 text-white">
+                                <h5>Xavi Alonso</h5>
+                                <p class="lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur </br> adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center d-flex flex-column align-items-center user-select-none">
+                            <img src="images/testimonial-4.jpeg" class=" d-block  slider-p" alt="Marta Socrate">
+                            <div class="py-5 text-white ">
+                                <h5>Marta Socrate</h5>
+                                <p class="lead">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,consectetur </br> adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- end slider -->
+    <!-- start blog -->
+    <div id="blog">
+        <div class="container">
+            <div class="main-heading text-center position-relative pb-2">
+                <h2>Blog</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="row mt-4">
+                <div class="mb-3 col-md-6 col-lg-4">
+                    <div class="card shadow rounded overflow-hidden">
+                        <a class="special text-decoration-none position-relative" href=""><img src="images/post-1.jpg" class="card-img-top " alt="..."></a>
+                        <div class="card-body pt-5 pb-4">
+                            <h5 class="card-title">See more ideas about Travel</h5>
+                            <p class="card-text lead">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <a class="text-decoration-none" href=""><img src="images/testimonial-2.jpg" alt=""><span> Morgan Freeman</span></a>
+                            <p class="mb-0 fs-5  "><i class="fa-regular fa-clock"></i>  10 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 col-md-6 col-lg-4">
+                    <div class="card shadow rounded overflow-hidden">
+                        <a class="special special2 text-decoration-none position-relative" href=""><img src="images/post-2.jpg" class="card-img-top " alt="..."></a>
+                        <div class="card-body pt-5 pb-4">
+                            <h5 class="card-title">See more ideas about Travel</h5>
+                            <p class="card-text lead">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-center">
+                            <a class="text-decoration-none" href=""><img src="images/testimonial-2.jpg" alt=""><span> Morgan Freeman</span></a>
+                            <p class="mb-0 fs-5  "><i class="fa-regular fa-clock"></i>  10 min</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 mt-md-4 mt-lg-0 col-md-6 col-lg-4 ">
+                    <div class="card shadow rounded">
+                    <a class="special special2 text-decoration-none position-relative" href=""><img src="images/post-3.jpg" class="card-img-top " alt="..."></a>
+                    <div class="card-body pt-5 pb-4">
+                        <h5 class="card-title">See more ideas about Travel</h5>
+                        <p class="card-text lead">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <a class="text-decoration-none" href=""><img src="images/testimonial-2.jpg" alt=""><span> Morgan Freeman</span></a>
+                        <p class="mb-0 fs-5  "><i class="fa-regular fa-clock"></i>  10 min</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end blog -->
+    <!-- start contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="card shadow container">
+                <div class="row g-0">
+                    <div class="col-md-6 card-body">
+                        <h2 class="position-relative pb-2 mb-5">Send Message Us</h2>
+                        <form action="" class="d-flex flex-wrap justify-content-center">
+                            <input class="w-100 mb-3 p-2 " placeholder="Your Name" type="text" name="name" required>
+                            <input class="w-100 mb-3 p-2" placeholder="Your Email" type="email" name="email">
+                            <input class="w-100 mb-3 p-2" placeholder="Subject" type="text" name="subject">
+                            <textarea class="w-100 p-2" placeholder="Message"  name="message"></textarea>
+                            <button class="btn rounded-5 text-white mt-4 py-2 px-3 fs-5">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h2 class="position-relative pb-2 mb-5">Get in Touch</h2>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                            <ul class="my-4">
+                                <li class="mb-3"><i class="pe-1 fa-solid fa-location-dot"></i><span>329 WASHINGTON ST BOSTON,MA 02108</span></li>
+                                <li class="mb-3"><i class="pe-1 fa-solid fa-mobile-screen-button"></i><span>(617) 557-0089</span></li>
+                                <li><i class="pe-2 fa-regular fa-envelope"></i><span> contact@example.com</span></li>
+                            </ul>
+                            <ul class="row ms-1">
+                                <li class="circle d-flex justify-content-center align-items-center me-3"><a href=""><i class="fa-brands fa-facebook text-black"></i></a></li>
+                                <li class="circle d-flex justify-content-center align-items-center me-3"><a href=""><i class="fa-brands fa-instagram text-black"></i></a></li>
+                                <li class="circle d-flex justify-content-center align-items-center me-3"><a href=""><i class="fa-brands fa-twitter text-black"></i></a></li>
+                                <li class="circle d-flex justify-content-center align-items-center"><a href=""><i class="fa-brands fa-linkedin text-black"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer  -->
+    <div class="footer">
+        <div class="container text-center text-white">
+            <p>&copy; Copyright <span>DevFolio.</span>All Rights Reserved </br>Designed by <a class="text-white text-decoration-none" href="">BootstrapMade</a></p>
+        </div>
+    </div>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
